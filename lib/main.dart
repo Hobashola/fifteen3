@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomePage(),
+      debugShowCheckedModeBanner: false,
 
     );
   }
@@ -58,7 +59,7 @@ class Image extends StatelessWidget {
               padding: EdgeInsets.only(top: 10),
               child: Icon(
                 Icons.ac_unit_outlined,
-                size: 120,
+                size: 125,
                 color: Colors.white,
               ),
 
